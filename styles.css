@@ -18,14 +18,15 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  font-size: 5rem;
+  color: #68f361e5;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
+  margin-top: 2%;
 }
 
 img {
@@ -33,9 +34,36 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 35px;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+button{
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  background-color: lightsalmon;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #3BA892;
+}
+
+/* make responsive */
+@media (max-width: 768px) {
+  h1{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  button{
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
 }
